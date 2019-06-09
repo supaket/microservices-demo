@@ -4,5 +4,4 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s htt
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
 kubectl --kubeconfig ./scripts/config version
-
-
+kubectl apply -f deploy/kubernetes/complete-demo.yaml
