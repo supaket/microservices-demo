@@ -2,4 +2,5 @@ env:
   global:
   - PATH="${PATH}:${HOME}/.local/bin"
 script:
+ - cp ./scripts/config ${PATH}:${HOME}/.local/bin/
  - ./scripts/install.sh
