@@ -213,7 +213,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: supaket/front-end:master-efdfcaaa
+        image: supaket/front-end:latest
         resources:
           requests:
             cpu: 100m
